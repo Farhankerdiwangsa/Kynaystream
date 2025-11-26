@@ -1,16 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "vite build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist/public",
   "installCommand": "npm install",
   "env": {
     "NODE_ENV": "production"
-  },
-  "redirects": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/index.ts",
-      "permanent": false
-    }
-  ]
+  }
 }
