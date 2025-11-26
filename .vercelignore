@@ -1,9 +1,6 @@
 api/
-server/
-client/
 .replit
 .git
-node_modules
 .cache
 .upm
 design_guidelines.md
@@ -11,3 +8,4 @@ replit.md
 git-recovery.sh
 attached_assets/
 *.log
+npm-debug.log*
